@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navv {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 1000;
+        }
+
+        .header2 {
+            position: sticky;
+            top: 50px; /* Adjust based on the height of the .navv element */
+            background-color: white;
+            z-index: 999;
+        }
+
+        /* Additional styling for better visibility */
+        body {
+            margin: 0;
+        }
+
+        .navv, .header2 {
+            padding: 10px;
+        }
+
+        main {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navv">
+            <div class="logoo">
+                <img class="logo" src="logo.png" alt="Logo">
+            </div>
+            <img src="locatin.svg" alt="Location">
+            <span> Delivering to Ahmedabad 382350 <span> Update location</span>
+            </span>
+            <div class="selandinp">
+                <select>
+                    <option>all</option>
+                    <option>all category</option>
+                    <option>baby</option>
+                    <option>beauty</option>
+                    <option>clothes</option>
+                    <option>cosmetics</option>
+                    <option>kitchens</option>
+                    <option>electronics</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in">
+                <div class="search">
+                    <img src="search-svgrepo-com.svg" alt="Search">
+                </div>
+            </div>
+
+            <div class="sel">
+                <select class="select">
+                    <option>Hindi</option>
+                    <option>Chinese</option>
+                    <option>English</option>
+                </select>
+
+                <div class="last">
+                    <span> Hello, Sign in</span>
+                    <span> Account & Lists <img src="down-arrow.svg" alt="Arrow"></span>
+                </div>
+                <div class="cart">
+                    <span>Returns</span>
+                    <span>& Orders</span>
+                </div>
+                <section>
+                    <img src="cart.png" width="40" height="30" alt="Cart">
+                    Cart
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="header2">
+        <ol>
+            <img class="line3" src="line-3-svgrepo-com.svg" alt="Line">
+            <li>All</li>
+            <li>Amazon miniTV</li>
+            <li>Sell</li>
+            <li>Best Sellers</li>
+            <li>Today's Deals</li>
+            <li>Mobiles</li>
+            <li>Customer Service</li>
+            <li>Prime <img src="down-arrow.svg" alt="Arrow"></li>
+            <li>Electronics</li>
+            <li>Fashion</li>
+        </ol>
+
+        <span>
+            <img class="sales" src="prime day.png" height="30" alt="Prime Day">
+        </span>
+    </nav>
+
+    <main>
+        <img src="back.jpg" width="100%" height="900" alt="Background">
+    </main>
+</body>
+</html>
